@@ -3,6 +3,7 @@ import { useContact } from "../Hooks/useContact"
 import { Outlet, useParams } from "react-router"
 import { memo } from "react"
 
+
 const ContactContex = createContext()
 const server_contacts = [
     {
@@ -12,7 +13,7 @@ const server_contacts = [
         state: "Todas las hojas son del viento <3",
         lastTime:"Hoy a las 23:46hs",
         online: false ,
-        profilepicture: "/./src/images/profilePictureCata.png",
+        profilepicture: "/public/profilePictureCata.png",
         messages : 
         [
             {
@@ -50,7 +51,7 @@ const server_contacts = [
         state: "°❀⋆.ೃ࿔*:･°❀⋆.ೃ࿔*:･",
         lastTime:"",
         online: true ,
-        profilepicture: "/./src/images/profilePictureBelu.png",
+        profilepicture: "/public/profilePictureBelu.png",
         messages : 
         [
             {
@@ -87,7 +88,7 @@ const server_contacts = [
         state: "Trabajando",
         lastTime:"Hoy a las 23:55hs",
         online: false ,
-        profilepicture: "/./src/images/profilePictureAbuela.png",
+        profilepicture: "/public/profilePictureAbuela.png",
         messages : 
         [
             {
@@ -111,7 +112,7 @@ const server_contacts = [
         state: "Aguante riveerr!!",
         lastTime:"",
         online: true ,
-        profilepicture: "/./src/images/profilePictureAgus.png",
+        profilepicture: "/public/profilePictureAgus.png",
         messages : 
         [
             {
@@ -160,7 +161,7 @@ function ListContact(){
         state: "Ocupado",
         lastTime:"",
         online: true ,
-        profilepicture: "/./src/images/profilePictureCata.png",
+        profilepicture: "/public/profilePictureCata.png",
         messages : []
 
     }
