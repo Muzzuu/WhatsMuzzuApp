@@ -13,7 +13,7 @@ const server_contacts = [
         state: "Todas las hojas son del viento <3",
         lastTime:"Hoy a las 23:46hs",
         online: false ,
-        profilepicture: "/public/profilePictureCata.png",
+        profilepicture: "/profilePictureCata.png",
         messages : 
         [
             {
@@ -51,7 +51,7 @@ const server_contacts = [
         state: "°❀⋆.ೃ࿔*:･°❀⋆.ೃ࿔*:･",
         lastTime:"",
         online: true ,
-        profilepicture: "/public/profilePictureBelu.png",
+        profilepicture: "/profilePictureBelu.png",
         messages : 
         [
             {
@@ -88,7 +88,7 @@ const server_contacts = [
         state: "Trabajando",
         lastTime:"Hoy a las 23:55hs",
         online: false ,
-        profilepicture: "/public/profilePictureAbuela.png",
+        profilepicture: "/profilePictureAbuela.png",
         messages : 
         [
             {
@@ -112,7 +112,7 @@ const server_contacts = [
         state: "Aguante riveerr!!",
         lastTime:"",
         online: true ,
-        profilepicture: "/public/profilePictureAgus.png",
+        profilepicture: "/profilePictureAgus.png",
         messages : 
         [
             {
@@ -161,7 +161,7 @@ function ListContact(){
         state: "Ocupado",
         lastTime:"",
         online: true ,
-        profilepicture: "/public/profilePictureCata.png",
+        profilepicture: "/profilePictureCata.png",
         messages : []
 
     }
